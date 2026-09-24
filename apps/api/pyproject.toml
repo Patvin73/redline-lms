@@ -1,0 +1,56 @@
+[project]
+name = "api"
+version = "0.1.0"
+description = "Redline Academy LMS Backend API"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.20.0",
+    "fastapi>=0.141.1",
+    "fastapi-mail>=1.6.8",
+    "httpx>=0.28.1",
+    "jinja2>=3.1.6",
+    "passlib[bcrypt]>=1.7.4",
+    "pillow>=12.3.0",
+    "psycopg[binary,pool]>=3.3.6",
+    "pydantic>=2.13.5",
+    "pydantic-settings>=2.15.0",
+    "python-dateutil>=2.9.0.post0",
+    "python-dotenv>=1.2.3",
+    "python-jose[cryptography]>=3.5.0",
+    "python-multipart>=0.0.32",
+    "python-slugify>=9.1.1",
+    "qrcode[pil]>=8.2",
+    "redis>=8.1.0",
+    "reportlab>=5.0.1",
+    "resend>=2.47.0",
+    "rq>=2.12.0",
+    "sentry-sdk[fastapi]>=2.70.0",
+    "shortuuid>=1.0.13",
+    "slowapi>=0.1.10",
+    "sqlalchemy[asyncio]>=2.0.54",
+    "supabase>=2.31.0",
+    "uvicorn[standard]>=0.53.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-root = "."
+module-name = "app"
+
+[dependency-groups]
+dev = [
+    "black>=26.5.1",
+    "factory-boy>=3.3.3",
+    "faker>=40.39.0",
+    "mypy>=2.3.1",
+    "pre-commit>=4.6.2",
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+    "pytest-cov>=7.1.0",
+    "pytest-mock>=3.15.1",
+    "ruff>=0.16.8",
+]

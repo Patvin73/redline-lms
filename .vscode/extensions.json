@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "charliermarsh.ruff",
+    "ms-python.black-formatter",
+    "eamodio.gitlens",
+    "humao.rest-client",
+    "rangav.vscode-thunder-client",
+    "usernamehw.errorlens",
+    "yoavbls.pretty-ts-errors",
+    "supabase.vscode-supabase-extension",
+    "continue.continue"
+  ]
+}

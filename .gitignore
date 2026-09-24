@@ -1,0 +1,185 @@
+# ============================================================
+# PYTHON
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# Build output
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+sdist/
+develop-eggs/
+
+# Test & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Linters & type checkers
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ============================================================
+# NODE / JAVASCRIPT / TYPESCRIPT
+# ============================================================
+node_modules/
+.pnpm-store/
+.pnpm-debug.log*
+
+# Build output
+dist/
+build/
+.vite/
+.cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# ============================================================
+# ENVIRONMENT VARIABLES (KRITIS!)
+# ============================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# TAPI: keep example files (untuk onboarding)
+!.env.example
+!**/.env.example
+!**/.env.local.example
+
+# ============================================================
+# SUPABASE
+# ============================================================
+supabase/.branches/
+supabase/.temp/
+supabase/.env
+.supabase/
+
+# ============================================================
+# DATABASE
+# ============================================================
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# ============================================================
+# VSCode
+# ============================================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ============================================================
+# JETBRAINS / OTHER IDE
+# ============================================================
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode-test/
+*.sublime-*
+
+# ============================================================
+# OPERATING SYSTEM
+# ============================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+*.lnk
+
+# ============================================================
+# LOGS & TEMP
+# ============================================================
+logs/
+*.log
+npm-debug.log*
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# ============================================================
+# TESTING & CI
+# ============================================================
+playwright-report/
+playwright/.cache/
+test-results/
+.vercel
+.netlify
+.cache/
+
+# ============================================================
+# BUILD ARTIFACTS (PROJECT-SPECIFIC)
+# ============================================================
+apps/web/dist/
+apps/web/build/
+apps/api/dist/
+apps/api/build/
+apps/api/.venv/
+
+# ============================================================
+# MISC
+# ============================================================
+*.pid
+*.seed
+*.pid.lock
+.eslintcache
+*.tsbuildinfo
+next-env.d.ts
+
+# ============================================================
+# KEEP THESE FILES (JANGAN DI-IGNORE)
+# ============================================================
+# - uv.lock (Python lock file — WAJIB di-commit)
+# - pnpm-lock.yaml (Node lock file — WAJIB di-commit)
+# - .env.example (template — wajib di-commit)
+# - package.json (dependency manifest — wajib di-commit)
+# - pyproject.toml (Python manifest — wajib di-commit)
